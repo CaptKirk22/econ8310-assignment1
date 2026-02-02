@@ -1,6 +1,8 @@
 # install libraries
 
-%pip install pygam
+import os
+
+os.system('pip install pygam')
 
 from pygam import LinearGAM, s, f, l
 import pandas as pd
